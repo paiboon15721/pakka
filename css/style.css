@@ -53,8 +53,8 @@ a:focus, a:hover {
 }
 
 .btn-main, .btn-main-sm {
-  background-color: #21D6BF;
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+  background-color: #141E30;
+  /* background-image: linear-gradient(100deg, #f9643d, #fe2a77); */
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -62,7 +62,7 @@ a:focus, a:hover {
   padding: 10px 40px;
   text-transform: uppercase;
   border: 1px solid transparent;
-  border-radius: 2px;
+  border-radius: 20px;
 }
 
 .btn-main:hover, .btn-main-sm:hover {
@@ -369,7 +369,8 @@ a:focus, a:hover {
   border-radius: 3px;
   height: 6px;
   position: relative;
-  width: 90px;
+  width: 40px;
+  background-color:  #ffc3a0;
   margin-bottom: 10px;
 }
 
@@ -385,8 +386,8 @@ a:focus, a:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.34);
 }
 
-.gradient, .title .border, .service-2 .service-item i {
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+.title r, .service-2 .service-item i {
+  background-color:  #ffc3a0;
 }
 
 .header-bradcrumb {
@@ -418,7 +419,7 @@ a:focus, a:hover {
 
 .commonTab .nav-tabs .nav-item .nav-link {
   background: #f9f9f9;
-  color: #666;
+  color: #000000;
   text-transform: capitalize;
   border-radius: 0;
 }
@@ -446,7 +447,7 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background: #1f2532;
+  background: #fffcdc;
   padding: 50px 0;
   text-align: center;
   color: #fff;
@@ -468,7 +469,7 @@ a:focus, a:hover {
 
 .navigation {
   transition: .3s all;
-  background: #1f2532;
+  background: #fffcdc;
 }
 
 .navigation .navbar-nav > li.active a {
@@ -476,7 +477,7 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-nav > li > a {
-  color: #707d8f;
+  color: #000000;
   font-size: 15px;
   line-height: 26px;
   padding: 20px 15px !important;
@@ -497,7 +498,7 @@ a:focus, a:hover {
 
 .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
   background: none;
-  color: #f0326b;
+  color: #4CA1AF;
 }
 
 .navigation .navbar-toggler {
@@ -572,7 +573,7 @@ a:focus, a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #1f2532;
+  background: #fffcdc;
 }
 
 @media (max-width: 480px) {
@@ -593,12 +594,14 @@ a:focus, a:hover {
 }
 
 .hero-area .block h2 {
+  color: #000000;
   font-size: 48px;
   margin-bottom: 20px;
 }
 
 .hero-area .block p {
   color: #707d8f;
+  font-size: 1.7rem;
   margin-bottom: 20px;
 }
 
@@ -759,8 +762,6 @@ a:focus, a:hover {
   width: 12%;
   height: 3px;
   background-color: #ffa535;
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
 }
 
 @media (max-width: 768px) {
@@ -1159,9 +1160,9 @@ a:focus, a:hover {
 }
 
 .services .service-block i {
-  font-size: 40px;
+  font-size: 50px;
   color: #f0326b;
-  background: linear-gradient(100deg, #f9643d, #fe2a77);
+  background: #000000;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
